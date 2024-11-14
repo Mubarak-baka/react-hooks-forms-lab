@@ -10,6 +10,7 @@ function App() {
   function handleDarkModeClick() {
     setIsDarkMode((isDarkMode) => !isDarkMode);
   }
+
   function handleItemFormSubmit(newItem) {
     setItems([...items, newItem]);
   }
